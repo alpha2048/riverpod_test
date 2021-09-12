@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'GoogleBookImageLinksResponse.dart';
+part of 'google_book_image_links_response.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator

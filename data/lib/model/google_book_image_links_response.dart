@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-part 'GoogleBookImageLinksResponse.freezed.dart';
-part 'GoogleBookImageLinksResponse.g.dart';
+part 'google_book_image_links_response.freezed.dart';
+part 'google_book_image_links_response.g.dart';
 
 @freezed
 class GoogleBookImageLinksResponse with _$GoogleBookImageLinksResponse {

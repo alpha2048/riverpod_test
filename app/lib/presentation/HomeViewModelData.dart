@@ -1,4 +1,4 @@
-import 'package:data/model/GoogleBooksResponse.dart';
+import 'package:data/model/google_books_response.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 

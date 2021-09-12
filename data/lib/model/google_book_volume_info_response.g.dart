@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'GoogleBookVolumeInfoResponse.dart';
+part of 'google_book_volume_info_response.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator

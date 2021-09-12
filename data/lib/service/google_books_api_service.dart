@@ -1,5 +1,5 @@
 import 'dart:convert' as convert;
-import 'package:data/model/GoogleBooksResponse.dart';
+import 'package:data/model/google_books_response.dart';
 import 'package:http/http.dart' as http;
 
 Future<GoogleBooksResponse> getBooks(String keyword) async {

@@ -1,7 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'GoogleBookResponse.dart';
-part 'GoogleBooksResponse.freezed.dart';
-part 'GoogleBooksResponse.g.dart';
+import 'google_book_response.dart';
+part 'google_books_response.freezed.dart';
+part 'google_books_response.g.dart';
 
 @freezed
 class GoogleBooksResponse with _$GoogleBooksResponse {

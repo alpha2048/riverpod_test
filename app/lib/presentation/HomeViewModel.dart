@@ -1,4 +1,4 @@
-import 'package:data/service/GoogleBooksAPIService.dart';
+import 'package:data/service/google_books_api_service.dart';
 import 'package:state_notifier/state_notifier.dart';
 import 'package:riverpod_test/presentation/HomeViewModelData.dart';
 
