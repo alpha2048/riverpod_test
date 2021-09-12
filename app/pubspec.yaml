@@ -37,6 +37,10 @@ dependencies:
   http:
   url_launcher:
 
+  # data層
+  data:
+    path: ../data
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

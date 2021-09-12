@@ -1,6 +1,6 @@
 import 'dart:convert' as convert;
+import 'package:data/model/GoogleBooksResponse.dart';
 import 'package:http/http.dart' as http;
-import 'package:riverpod_test/data/model/GoogleBooksResponse.dart';
 
 Future<GoogleBooksResponse> getBooks(String keyword) async {
 

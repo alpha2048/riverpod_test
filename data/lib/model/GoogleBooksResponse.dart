@@ -1,6 +1,5 @@
-import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:riverpod_test/data/model/GoogleBookResponse.dart';
+import 'GoogleBookResponse.dart';
 part 'GoogleBooksResponse.freezed.dart';
 part 'GoogleBooksResponse.g.dart';
 

@@ -1,5 +1,6 @@
+// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'GoogleBookResponse.dart';
 
@@ -187,9 +188,7 @@ class __$GoogleBookResponseCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$_GoogleBookResponse
-    with DiagnosticableTreeMixin
-    implements _GoogleBookResponse {
+class _$_GoogleBookResponse implements _GoogleBookResponse {
   const _$_GoogleBookResponse(
       {required this.kind,
       required this.id,
@@ -198,7 +197,7 @@ class _$_GoogleBookResponse
       this.totalItems});
 
   factory _$_GoogleBookResponse.fromJson(Map<String, dynamic> json) =>
-      _$_$_GoogleBookResponseFromJson(json);
+      _$$_GoogleBookResponseFromJson(json);
 
   @override
   final String kind;
@@ -212,20 +211,8 @@ class _$_GoogleBookResponse
   final int? totalItems;
 
   @override
-  String toString({DiagnosticLevel minLevel = DiagnosticLevel.info}) {
+  String toString() {
     return 'GoogleBookResponse(kind: $kind, id: $id, etag: $etag, volumeInfo: $volumeInfo, totalItems: $totalItems)';
-  }
-
-  @override
-  void debugFillProperties(DiagnosticPropertiesBuilder properties) {
-    super.debugFillProperties(properties);
-    properties
-      ..add(DiagnosticsProperty('type', 'GoogleBookResponse'))
-      ..add(DiagnosticsProperty('kind', kind))
-      ..add(DiagnosticsProperty('id', id))
-      ..add(DiagnosticsProperty('etag', etag))
-      ..add(DiagnosticsProperty('volumeInfo', volumeInfo))
-      ..add(DiagnosticsProperty('totalItems', totalItems));
   }
 
   @override
@@ -262,7 +249,7 @@ class _$_GoogleBookResponse
 
   @override
   Map<String, dynamic> toJson() {
-    return _$_$_GoogleBookResponseToJson(this);
+    return _$$_GoogleBookResponseToJson(this);
   }
 }
 

@@ -1,5 +1,6 @@
+// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'GoogleBookImageLinksResponse.dart';
 
@@ -128,14 +129,12 @@ class __$GoogleBookImageLinksResponseCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$_GoogleBookImageLinksResponse
-    with DiagnosticableTreeMixin
-    implements _GoogleBookImageLinksResponse {
+class _$_GoogleBookImageLinksResponse implements _GoogleBookImageLinksResponse {
   const _$_GoogleBookImageLinksResponse(
       {required this.smallThumbnail, required this.thumbnail});
 
   factory _$_GoogleBookImageLinksResponse.fromJson(Map<String, dynamic> json) =>
-      _$_$_GoogleBookImageLinksResponseFromJson(json);
+      _$$_GoogleBookImageLinksResponseFromJson(json);
 
   @override
   final String smallThumbnail;
@@ -143,17 +142,8 @@ class _$_GoogleBookImageLinksResponse
   final String thumbnail;
 
   @override
-  String toString({DiagnosticLevel minLevel = DiagnosticLevel.info}) {
+  String toString() {
     return 'GoogleBookImageLinksResponse(smallThumbnail: $smallThumbnail, thumbnail: $thumbnail)';
-  }
-
-  @override
-  void debugFillProperties(DiagnosticPropertiesBuilder properties) {
-    super.debugFillProperties(properties);
-    properties
-      ..add(DiagnosticsProperty('type', 'GoogleBookImageLinksResponse'))
-      ..add(DiagnosticsProperty('smallThumbnail', smallThumbnail))
-      ..add(DiagnosticsProperty('thumbnail', thumbnail));
   }
 
   @override
@@ -182,7 +172,7 @@ class _$_GoogleBookImageLinksResponse
 
   @override
   Map<String, dynamic> toJson() {
-    return _$_$_GoogleBookImageLinksResponseToJson(this);
+    return _$$_GoogleBookImageLinksResponseToJson(this);
   }
 }
 

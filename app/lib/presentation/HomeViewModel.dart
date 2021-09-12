@@ -1,5 +1,5 @@
+import 'package:data/service/GoogleBooksAPIService.dart';
 import 'package:state_notifier/state_notifier.dart';
-import 'package:riverpod_test/data/GoogleBooksAPIService.dart';
 import 'package:riverpod_test/presentation/HomeViewModelData.dart';
 
 class HomeViewModel extends StateNotifier<HomeViewModelData> {

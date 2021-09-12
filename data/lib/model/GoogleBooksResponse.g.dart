@@ -6,18 +6,17 @@ part of 'GoogleBooksResponse.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$_GoogleBooksResponse _$_$_GoogleBooksResponseFromJson(
-    Map<String, dynamic> json) {
-  return _$_GoogleBooksResponse(
-    kind: json['kind'] as String,
-    totalItems: json['totalItems'] as int,
-    items: (json['items'] as List<dynamic>)
-        .map((e) => GoogleBookResponse.fromJson(e as Map<String, dynamic>))
-        .toList(),
-  );
-}
+_$_GoogleBooksResponse _$$_GoogleBooksResponseFromJson(
+        Map<String, dynamic> json) =>
+    _$_GoogleBooksResponse(
+      kind: json['kind'] as String,
+      totalItems: json['totalItems'] as int,
+      items: (json['items'] as List<dynamic>)
+          .map((e) => GoogleBookResponse.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
 
-Map<String, dynamic> _$_$_GoogleBooksResponseToJson(
+Map<String, dynamic> _$$_GoogleBooksResponseToJson(
         _$_GoogleBooksResponse instance) =>
     <String, dynamic>{
       'kind': instance.kind,

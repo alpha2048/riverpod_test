@@ -1,5 +1,6 @@
+import 'package:data/model/GoogleBooksResponse.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:riverpod_test/data/model/GoogleBooksResponse.dart';
+
 
 part 'HomeViewModelData.freezed.dart';
 

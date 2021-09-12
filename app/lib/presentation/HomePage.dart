@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_test/data/model/GoogleBookResponse.dart';
 import 'package:riverpod_test/presentation/HomeViewModel.dart';
 import 'package:riverpod_test/presentation/HomeViewModelData.dart';
 import 'package:riverpod_test/util/Strings.dart';
@@ -74,7 +73,7 @@ class HomePageState extends State<HomePage> {
                 ),);
             } else {
               final response = state.response;
-              final List<GoogleBookResponse> bookList = response != null ? response.items : [];
+              final bookList = response != null ? response.items : [];
               body = bookList.length > 0
                   ? ListView(
                   scrollDirection: Axis.vertical,

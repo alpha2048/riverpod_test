@@ -1,5 +1,6 @@
+// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'GoogleBookVolumeInfoResponse.dart';
 
@@ -226,9 +227,7 @@ class __$GoogleBookVolumeInfoResponseCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$_GoogleBookVolumeInfoResponse
-    with DiagnosticableTreeMixin
-    implements _GoogleBookVolumeInfoResponse {
+class _$_GoogleBookVolumeInfoResponse implements _GoogleBookVolumeInfoResponse {
   const _$_GoogleBookVolumeInfoResponse(
       {required this.title,
       this.publisher,
@@ -239,7 +238,7 @@ class _$_GoogleBookVolumeInfoResponse
       required this.infoLink});
 
   factory _$_GoogleBookVolumeInfoResponse.fromJson(Map<String, dynamic> json) =>
-      _$_$_GoogleBookVolumeInfoResponseFromJson(json);
+      _$$_GoogleBookVolumeInfoResponseFromJson(json);
 
   @override
   final String title;
@@ -257,22 +256,8 @@ class _$_GoogleBookVolumeInfoResponse
   final String infoLink;
 
   @override
-  String toString({DiagnosticLevel minLevel = DiagnosticLevel.info}) {
+  String toString() {
     return 'GoogleBookVolumeInfoResponse(title: $title, publisher: $publisher, publishedDate: $publishedDate, description: $description, pageCount: $pageCount, imageLinks: $imageLinks, infoLink: $infoLink)';
-  }
-
-  @override
-  void debugFillProperties(DiagnosticPropertiesBuilder properties) {
-    super.debugFillProperties(properties);
-    properties
-      ..add(DiagnosticsProperty('type', 'GoogleBookVolumeInfoResponse'))
-      ..add(DiagnosticsProperty('title', title))
-      ..add(DiagnosticsProperty('publisher', publisher))
-      ..add(DiagnosticsProperty('publishedDate', publishedDate))
-      ..add(DiagnosticsProperty('description', description))
-      ..add(DiagnosticsProperty('pageCount', pageCount))
-      ..add(DiagnosticsProperty('imageLinks', imageLinks))
-      ..add(DiagnosticsProperty('infoLink', infoLink));
   }
 
   @override
@@ -320,7 +305,7 @@ class _$_GoogleBookVolumeInfoResponse
 
   @override
   Map<String, dynamic> toJson() {
-    return _$_$_GoogleBookVolumeInfoResponseToJson(this);
+    return _$$_GoogleBookVolumeInfoResponseToJson(this);
   }
 }
 

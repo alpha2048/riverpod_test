@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 part 'GoogleBookImageLinksResponse.freezed.dart';
 part 'GoogleBookImageLinksResponse.g.dart';
