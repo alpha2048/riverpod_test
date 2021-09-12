@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_test/presentation/HomeViewModel.dart';
-import 'package:riverpod_test/presentation/HomeViewModelData.dart';
-import 'package:riverpod_test/util/Strings.dart';
-import 'package:riverpod_test/util/URLUtil.dart';
+import 'package:riverpod_test/presentation/home_view_model.dart';
+import 'package:riverpod_test/presentation/home_view_model_data.dart';
+import 'package:riverpod_test/util/strings.dart';
+import 'package:riverpod_test/util/url_util.dart';
 
 final viewModel = StateNotifierProvider<HomeViewModel, HomeViewModelData>((refs) => HomeViewModel());
 

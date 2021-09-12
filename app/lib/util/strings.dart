@@ -1,5 +1,4 @@
 import 'dart:core';
-import 'dart:core';
 
 class Strings {
   static const String AppTitle = 'Google Book State Notifier Sample';

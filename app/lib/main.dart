@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_test/presentation/HomePage.dart';
-import 'package:riverpod_test/util/Strings.dart';
+import 'package:riverpod_test/presentation/home_page.dart';
+import 'package:riverpod_test/util/strings.dart';
 
 void main() {
   runApp(
